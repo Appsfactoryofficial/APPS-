@@ -4,10 +4,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title> 𝔸𝕡𝕡𝕤 𝔽𝕒𝕔𝕥𝕠𝕣𝕪 - Order Now</title>
+  <title>𝔸𝕡𝕡𝕤 𝔽𝕒𝕔𝕥𝕠𝕣𝕪 - Order Now</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
   <style>
-    /* [CSS unchanged — already well-written] */
     * {
       margin: 0;
       padding: 0;
@@ -96,44 +95,46 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 2rem;
+      gap: 1.5rem;
     }
 
     .product {
       background: #fff5f5;
       border: 2px solid #ffcccb;
       border-radius: 12px;
-      box-shadow: 0 0 15px rgba(255, 0, 0, 0.1);
-      width: 250px;
-      padding: 1rem;
+      box-shadow: 0 0 10px rgba(255, 0, 0, 0.1);
+      width: 180px;
+      padding: 0.8rem;
       transition: transform 0.3s;
     }
 
     .product:hover {
-      transform: translateY(-8px);
+      transform: translateY(-6px);
     }
 
     .product img {
       width: 100%;
-      height: 250px;
+      height: 150px;
       object-fit: cover;
       border-radius: 10px;
     }
 
     .product h3 {
-      margin: 1rem 0 0.5rem;
+      margin: 0.6rem 0 0.3rem;
       color: #d32f2f;
+      font-size: 1rem;
     }
 
     .product p {
-      font-size: 0.9rem;
+      font-size: 0.8rem;
       color: #555;
     }
 
     .product .price {
       color: #d32f2f;
       font-weight: bold;
-      margin-top: 0.5rem;
+      margin-top: 0.3rem;
+      font-size: 0.9rem;
     }
 
     .btn-group {
@@ -141,21 +142,22 @@
       gap: 0.5rem;
       justify-content: center;
       flex-wrap: wrap;
-      margin-top: 1rem;
+      margin-top: 0.5rem;
     }
 
     .whatsapp-btn {
-      padding: 0.5rem 1rem;
+      padding: 0.3rem 0.6rem;
       background: linear-gradient(to right, #25D366, #128C7E);
       color: white;
       border: none;
-      border-radius: 8px;
+      border-radius: 6px;
       cursor: pointer;
       font-weight: bold;
       transition: all 0.3s;
       display: flex;
       align-items: center;
-      gap: 5px;
+      gap: 4px;
+      font-size: 0.8rem;
     }
 
     .whatsapp-btn:hover {
@@ -163,8 +165,8 @@
     }
 
     .whatsapp-btn img {
-      width: 20px;
-      height: 20px;
+      width: 16px;
+      height: 16px;
     }
 
     footer {
@@ -179,7 +181,7 @@
 
 <body>
   <header>
-    <h1> 𝔸𝕡𝕡𝕤 𝔽𝕒𝕔𝕥𝕠𝕣𝕪 </h1>
+    <h1>𝔸𝕡𝕡𝕤 𝔽𝕒𝕔𝕥𝕠𝕣𝕪</h1>
     <nav>
       <a href="#">Home</a>
       <a href="#Apps">Apps</a>
@@ -238,7 +240,7 @@
       const whatsappNumber = '923392011093';
       const message = `Hello, I'm interested in "${productName}" priced at ${productPrice}. Please share details.`;
       const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
-      window.open(whatsappUrl, '_send order message to this number 0339201093');
+      window.open(whatsappUrl, '_send order message to this number 03392011093');
     }
   </script>
 </body>
